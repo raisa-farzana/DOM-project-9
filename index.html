@@ -8,15 +8,17 @@
 </head>
 <body>
     <div class="slider">
-        <div class="sliders">
-            <img src="images/biriyani.png" alt="">
-            <img src="images/burger.png" alt="">
-            <img src="images/foods.png" alt="">
+        <div class="slides">
+            <img src="images/biriyani.png" alt="" class="slide">
+            <img src="images/burger.png" alt="" class="slide">
+            <img src="images/foods.png" alt="" class="slide">
         </div>
         <div class="controls">
-            <button> &#10094; </button>
-            <button> &#10095; </button>
+            <button onclick="prevSlide()"> &#10094; </button>
+            <button onclick="nextSlide()"> &#10095; </button>
         </div>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
